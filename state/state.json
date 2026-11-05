@@ -1,7 +1,7 @@
 {
  "meta": {
   "start_date": "2026-10-22",
-  "last_processed": "2026-11-04",
+  "last_processed": "2026-11-05",
   "initial_cash": 100000,
   "created_utc": "2026-10-22T18:15:33+00:00",
   "params": {
@@ -88,16 +88,16 @@
      "entry_price": 73.9,
      "entry_date": "2026-10-22",
      "cost_basis": 19970.0,
-     "days_held": 8,
+     "days_held": 9,
      "entry_reason": "20日漲幅 7.6%，站上60日均線",
-     "last_price": 73.2
+     "last_price": 74.9
     },
     "2412": {
      "shares": 119,
      "entry_price": 159.5,
      "entry_date": "2026-10-27",
      "cost_basis": 18996.5,
-     "days_held": 7,
+     "days_held": 8,
      "entry_reason": "20日漲幅 9.3%，站上60日均線",
      "last_price": 161.5
     },
@@ -106,27 +106,27 @@
      "entry_price": 133.5,
      "entry_date": "2026-10-28",
      "cost_basis": 18706.0,
-     "days_held": 6,
+     "days_held": 7,
      "entry_reason": "20日漲幅 9.3%，站上60日均線",
-     "last_price": 135.0
+     "last_price": 132.5
     },
     "2886": {
      "shares": 338,
      "entry_price": 53.9,
      "entry_date": "2026-10-28",
      "cost_basis": 18234.2,
-     "days_held": 6,
+     "days_held": 7,
      "entry_reason": "20日漲幅 8.9%，站上60日均線",
-     "last_price": 53.5
+     "last_price": 54.0
     },
     "2892": {
      "shares": 367,
      "entry_price": 44.75,
      "entry_date": "2026-11-02",
      "cost_basis": 16437.25,
-     "days_held": 3,
+     "days_held": 4,
      "entry_reason": "20日漲幅 15.5%，站上60日均線",
-     "last_price": 42.45
+     "last_price": 42.25
     }
    },
    "pending": [],
@@ -418,6 +418,12 @@
      "equity": 91545.7,
      "cash": 1.05,
      "n_pos": 5
+    },
+    {
+     "date": "2026-11-05",
+     "equity": 91750.3,
+     "cash": 1.05,
+     "n_pos": 5
     }
    ],
    "skipped": [],
@@ -429,54 +435,55 @@
    "key": "B",
    "name": "B 均值回歸",
    "desc": "進場：股價在 200 日均線之上（長多）且 RSI(14) 低於 30。出場：RSI 回到 50 以上，或持有滿 15 個交易日。",
-   "cash": 40993.5,
+   "cash": 6304.5,
    "positions": {
     "2303": {
      "shares": 181,
      "entry_price": 110.0,
      "entry_date": "2026-10-30",
      "cost_basis": 19927.0,
-     "days_held": 4,
+     "days_held": 5,
      "entry_reason": "RSI 30 超賣，仍在200日均線之上",
-     "last_price": 105.5
+     "last_price": 98.4
     },
     "2301": {
      "shares": 83,
      "entry_price": 235.5,
      "entry_date": "2026-11-04",
      "cost_basis": 19563.5,
-     "days_held": 1,
+     "days_held": 2,
      "entry_reason": "RSI 29 超賣，仍在200日均線之上",
-     "last_price": 226.0
+     "last_price": 211.5
     },
     "2395": {
      "shares": 31,
      "entry_price": 629.0,
      "entry_date": "2026-11-04",
      "cost_basis": 19516.0,
-     "days_held": 1,
+     "days_held": 2,
      "entry_reason": "RSI 30 超賣，仍在200日均線之上",
-     "last_price": 629.0
+     "last_price": 596.0
+    },
+    "2059": {
+     "shares": 2,
+     "entry_price": 8330.0,
+     "entry_date": "2026-11-05",
+     "cost_basis": 16674.0,
+     "days_held": 1,
+     "entry_reason": "RSI 27 超賣，仍在200日均線之上",
+     "last_price": 7995.0
+    },
+    "2330": {
+     "shares": 8,
+     "entry_price": 2250.0,
+     "entry_date": "2026-11-05",
+     "cost_basis": 18015.0,
+     "days_held": 1,
+     "entry_reason": "RSI 27 超賣，仍在200日均線之上",
+     "last_price": 2240.0
     }
    },
-   "pending": [
-    {
-     "side": "buy",
-     "code": "2059",
-     "target_amount": 19669.2,
-     "reason": "RSI 27 超賣，仍在200日均線之上",
-     "score": 26.8242,
-     "signal_date": "2026-11-04"
-    },
-    {
-     "side": "buy",
-     "code": "2330",
-     "target_amount": 19669.2,
-     "reason": "RSI 27 超賣，仍在200日均線之上",
-     "score": 27.2832,
-     "signal_date": "2026-11-04"
-    }
-   ],
+   "pending": [],
    "fills": [
     {
      "date": "2026-10-30",
@@ -510,6 +517,28 @@
      "fee": 17,
      "tax": 0,
      "reason": "RSI 30 超賣，仍在200日均線之上"
+    },
+    {
+     "date": "2026-11-05",
+     "code": "2059",
+     "side": "buy",
+     "price": 8330.0,
+     "shares": 2,
+     "amount": 16660.0,
+     "fee": 14,
+     "tax": 0,
+     "reason": "RSI 27 超賣，仍在200日均線之上"
+    },
+    {
+     "date": "2026-11-05",
+     "code": "2330",
+     "side": "buy",
+     "price": 2250.0,
+     "shares": 8,
+     "amount": 18000.0,
+     "fee": 15,
+     "tax": 0,
+     "reason": "RSI 27 超賣，仍在200日均線之上"
     }
    ],
    "trades": [],
@@ -567,11 +596,17 @@
      "equity": 98346.0,
      "cash": 40993.5,
      "n_pos": 3
+    },
+    {
+     "date": "2026-11-05",
+     "equity": 94055.4,
+     "cash": 6304.5,
+     "n_pos": 5
     }
    ],
    "skipped": [],
    "gaps": [],
-   "fees_total": 51.0,
+   "fees_total": 80.0,
    "tax_total": 0.0
   },
   "C": {
@@ -585,7 +620,7 @@
      "entry_price": 77.6,
      "entry_date": "2026-10-22",
      "cost_basis": 19960.2,
-     "days_held": 8,
+     "days_held": 9,
      "entry_reason": "外資連 3 日買超，3日買超佔均量 122.8%",
      "last_price": 80.9
     },
@@ -594,16 +629,16 @@
      "entry_price": 130.0,
      "entry_date": "2026-10-22",
      "cost_basis": 19907.0,
-     "days_held": 8,
+     "days_held": 9,
      "entry_reason": "外資連 3 日買超，3日買超佔均量 106.2%",
-     "last_price": 135.0
+     "last_price": 132.5
     },
     "5880": {
      "shares": 693,
      "entry_price": 28.9,
      "entry_date": "2026-11-03",
      "cost_basis": 20044.7,
-     "days_held": 2,
+     "days_held": 3,
      "entry_reason": "外資連 3 日買超，3日買超佔均量 93.7%",
      "last_price": 28.5
     },
@@ -612,12 +647,19 @@
      "entry_price": 53.1,
      "entry_date": "2026-11-04",
      "cost_basis": 19982.6,
-     "days_held": 1,
+     "days_held": 2,
      "entry_reason": "外資連 3 日買超，3日買超佔均量 58.5%",
-     "last_price": 53.5
+     "last_price": 54.0
     }
    },
-   "pending": [],
+   "pending": [
+    {
+     "side": "sell",
+     "code": "2886",
+     "reason": "外資連續 2 日賣超",
+     "signal_date": "2026-11-05"
+    }
+   ],
    "fills": [
     {
      "date": "2026-10-22",
@@ -860,6 +902,12 @@
      "equity": 100337.7,
      "cash": 19024.9,
      "n_pos": 4
+    },
+    {
+     "date": "2026-11-05",
+     "equity": 100143.2,
+     "cash": 19024.9,
+     "n_pos": 4
     }
    ],
    "skipped": [],
@@ -878,9 +926,9 @@
      "entry_price": 108.95,
      "entry_date": "2026-10-22",
      "cost_basis": 99992.15,
-     "days_held": 8,
+     "days_held": 9,
      "entry_reason": "基準：全額買進並持有",
-     "last_price": 99.85
+     "last_price": 97.15
     }
    },
    "pending": [],
@@ -950,6 +998,12 @@
     {
      "date": "2026-11-04",
      "equity": 91570.3,
+     "cash": 7.85,
+     "n_pos": 1
+    },
+    {
+     "date": "2026-11-05",
+     "equity": 89094.4,
      "cash": 7.85,
      "n_pos": 1
     }
@@ -1025,6 +1079,13 @@
    "at_utc": "2026-11-04T20:41:03+00:00",
    "processed": [
     "2026-11-04"
+   ],
+   "missing_prices": []
+  },
+  {
+   "at_utc": "2026-11-05T20:56:29+00:00",
+   "processed": [
+    "2026-11-05"
    ],
    "missing_prices": []
   }
