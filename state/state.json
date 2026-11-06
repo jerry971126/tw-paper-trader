@@ -1,7 +1,7 @@
 {
  "meta": {
   "start_date": "2026-10-22",
-  "last_processed": "2026-11-05",
+  "last_processed": "2026-11-06",
   "initial_cash": 100000,
   "created_utc": "2026-10-22T18:15:33+00:00",
   "params": {
@@ -88,48 +88,63 @@
      "entry_price": 73.9,
      "entry_date": "2026-10-22",
      "cost_basis": 19970.0,
-     "days_held": 9,
+     "days_held": 10,
      "entry_reason": "20日漲幅 7.6%，站上60日均線",
-     "last_price": 74.9
+     "last_price": 73.4
     },
     "2412": {
      "shares": 119,
      "entry_price": 159.5,
      "entry_date": "2026-10-27",
      "cost_basis": 18996.5,
-     "days_held": 8,
+     "days_held": 9,
      "entry_reason": "20日漲幅 9.3%，站上60日均線",
-     "last_price": 161.5
+     "last_price": 163.5
     },
     "3045": {
      "shares": 140,
      "entry_price": 133.5,
      "entry_date": "2026-10-28",
      "cost_basis": 18706.0,
-     "days_held": 7,
+     "days_held": 8,
      "entry_reason": "20日漲幅 9.3%，站上60日均線",
-     "last_price": 132.5
+     "last_price": 133.0
     },
     "2886": {
      "shares": 338,
      "entry_price": 53.9,
      "entry_date": "2026-10-28",
      "cost_basis": 18234.2,
-     "days_held": 7,
+     "days_held": 8,
      "entry_reason": "20日漲幅 8.9%，站上60日均線",
-     "last_price": 54.0
+     "last_price": 53.5
     },
     "2892": {
      "shares": 367,
      "entry_price": 44.75,
      "entry_date": "2026-11-02",
      "cost_basis": 16437.25,
-     "days_held": 4,
+     "days_held": 5,
      "entry_reason": "20日漲幅 15.5%，站上60日均線",
-     "last_price": 42.25
+     "last_price": 40.95
     }
    },
-   "pending": [],
+   "pending": [
+    {
+     "side": "sell",
+     "code": "2892",
+     "reason": "停損 -8%",
+     "signal_date": "2026-11-06"
+    },
+    {
+     "side": "buy",
+     "code": "4904",
+     "target_amount": 18201.44,
+     "reason": "20日漲幅 7.2%，站上60日均線",
+     "score": 0.0718,
+     "signal_date": "2026-11-06"
+    }
+   ],
    "fills": [
     {
      "date": "2026-10-22",
@@ -424,6 +439,12 @@
      "equity": 91750.3,
      "cash": 1.05,
      "n_pos": 5
+    },
+    {
+     "date": "2026-11-06",
+     "equity": 91007.2,
+     "cash": 1.05,
+     "n_pos": 5
     }
    ],
    "skipped": [],
@@ -442,45 +463,45 @@
      "entry_price": 110.0,
      "entry_date": "2026-10-30",
      "cost_basis": 19927.0,
-     "days_held": 5,
+     "days_held": 6,
      "entry_reason": "RSI 30 超賣，仍在200日均線之上",
-     "last_price": 98.4
+     "last_price": 92.0
     },
     "2301": {
      "shares": 83,
      "entry_price": 235.5,
      "entry_date": "2026-11-04",
      "cost_basis": 19563.5,
-     "days_held": 2,
+     "days_held": 3,
      "entry_reason": "RSI 29 超賣，仍在200日均線之上",
-     "last_price": 211.5
+     "last_price": 198.0
     },
     "2395": {
      "shares": 31,
      "entry_price": 629.0,
      "entry_date": "2026-11-04",
      "cost_basis": 19516.0,
-     "days_held": 2,
+     "days_held": 3,
      "entry_reason": "RSI 30 超賣，仍在200日均線之上",
-     "last_price": 596.0
+     "last_price": 552.0
     },
     "2059": {
      "shares": 2,
      "entry_price": 8330.0,
      "entry_date": "2026-11-05",
      "cost_basis": 16674.0,
-     "days_held": 1,
+     "days_held": 2,
      "entry_reason": "RSI 27 超賣，仍在200日均線之上",
-     "last_price": 7995.0
+     "last_price": 7565.0
     },
     "2330": {
      "shares": 8,
      "entry_price": 2250.0,
      "entry_date": "2026-11-05",
      "cost_basis": 18015.0,
-     "days_held": 1,
+     "days_held": 2,
      "entry_reason": "RSI 27 超賣，仍在200日均線之上",
-     "last_price": 2240.0
+     "last_price": 2135.0
     }
    },
    "pending": [],
@@ -602,6 +623,12 @@
      "equity": 94055.4,
      "cash": 6304.5,
      "n_pos": 5
+    },
+    {
+     "date": "2026-11-06",
+     "equity": 88712.5,
+     "cash": 6304.5,
+     "n_pos": 5
     }
    ],
    "skipped": [],
@@ -613,51 +640,62 @@
    "key": "C",
    "name": "C 法人籌碼",
    "desc": "進場：外資連續 3 日買超，且股價在 20 日均線之上（依 3 日買超量佔均量比例排序）。出場：外資連續 2 日賣超，或跌破 20 日均線。",
-   "cash": 19024.9,
+   "cash": 38351.5,
    "positions": {
     "1216": {
      "shares": 257,
      "entry_price": 77.6,
      "entry_date": "2026-10-22",
      "cost_basis": 19960.2,
-     "days_held": 9,
+     "days_held": 10,
      "entry_reason": "外資連 3 日買超，3日買超佔均量 122.8%",
-     "last_price": 80.9
+     "last_price": 76.8
     },
     "3045": {
      "shares": 153,
      "entry_price": 130.0,
      "entry_date": "2026-10-22",
      "cost_basis": 19907.0,
-     "days_held": 9,
+     "days_held": 10,
      "entry_reason": "外資連 3 日買超，3日買超佔均量 106.2%",
-     "last_price": 132.5
+     "last_price": 133.0
     },
     "5880": {
      "shares": 693,
      "entry_price": 28.9,
      "entry_date": "2026-11-03",
      "cost_basis": 20044.7,
-     "days_held": 3,
+     "days_held": 4,
      "entry_reason": "外資連 3 日買超，3日買超佔均量 93.7%",
-     "last_price": 28.5
-    },
-    "2886": {
-     "shares": 376,
-     "entry_price": 53.1,
-     "entry_date": "2026-11-04",
-     "cost_basis": 19982.6,
-     "days_held": 2,
-     "entry_reason": "外資連 3 日買超，3日買超佔均量 58.5%",
-     "last_price": 54.0
+     "last_price": 27.9
     }
    },
    "pending": [
     {
      "side": "sell",
-     "code": "2886",
+     "code": "1216",
+     "reason": "跌破20日均線",
+     "signal_date": "2026-11-06"
+    },
+    {
+     "side": "sell",
+     "code": "3045",
      "reason": "外資連續 2 日賣超",
-     "signal_date": "2026-11-05"
+     "signal_date": "2026-11-06"
+    },
+    {
+     "side": "sell",
+     "code": "5880",
+     "reason": "跌破20日均線",
+     "signal_date": "2026-11-06"
+    },
+    {
+     "side": "buy",
+     "code": "2412",
+     "target_amount": 19554.56,
+     "reason": "外資連 3 日買超，3日買超佔均量 85.7%",
+     "score": 0.8568,
+     "signal_date": "2026-11-06"
     }
    ],
    "fills": [
@@ -792,6 +830,17 @@
      "fee": 17,
      "tax": 0,
      "reason": "外資連 3 日買超，3日買超佔均量 58.5%"
+    },
+    {
+     "date": "2026-11-06",
+     "code": "2886",
+     "side": "sell",
+     "price": 51.6,
+     "shares": 376,
+     "amount": 19401.6,
+     "fee": 17,
+     "tax": 58,
+     "reason": "外資連續 2 日賣超"
     }
    ],
    "trades": [
@@ -845,6 +894,19 @@
      "pnl_pct": -0.0304,
      "hold_days": 2,
      "entry_reason": "外資連 3 日買超，3日買超佔均量 88.6%",
+     "exit_reason": "外資連續 2 日賣超"
+    },
+    {
+     "code": "2886",
+     "entry_date": "2026-11-04",
+     "exit_date": "2026-11-06",
+     "shares": 376,
+     "entry_price": 53.1,
+     "exit_price": 51.6,
+     "pnl": -656.0,
+     "pnl_pct": -0.0328,
+     "hold_days": 2,
+     "entry_reason": "外資連 3 日買超，3日買超佔均量 58.5%",
      "exit_reason": "外資連續 2 日賣超"
     }
    ],
@@ -908,12 +970,18 @@
      "equity": 100143.2,
      "cash": 19024.9,
      "n_pos": 4
+    },
+    {
+     "date": "2026-11-06",
+     "equity": 97772.8,
+     "cash": 38351.5,
+     "n_pos": 3
     }
    ],
    "skipped": [],
    "gaps": [],
-   "fees_total": 202.0,
-   "tax_total": 234.0
+   "fees_total": 219.0,
+   "tax_total": 292.0
   },
   "D": {
    "key": "D",
@@ -926,9 +994,9 @@
      "entry_price": 108.95,
      "entry_date": "2026-10-22",
      "cost_basis": 99992.15,
-     "days_held": 9,
+     "days_held": 10,
      "entry_reason": "基準：全額買進並持有",
-     "last_price": 97.15
+     "last_price": 92.5
     }
    },
    "pending": [],
@@ -1004,6 +1072,12 @@
     {
      "date": "2026-11-05",
      "equity": 89094.4,
+     "cash": 7.85,
+     "n_pos": 1
+    },
+    {
+     "date": "2026-11-06",
+     "equity": 84830.35,
      "cash": 7.85,
      "n_pos": 1
     }
@@ -1086,6 +1160,13 @@
    "at_utc": "2026-11-05T20:56:29+00:00",
    "processed": [
     "2026-11-05"
+   ],
+   "missing_prices": []
+  },
+  {
+   "at_utc": "2026-11-06T20:15:25+00:00",
+   "processed": [
+    "2026-11-06"
    ],
    "missing_prices": []
   }
