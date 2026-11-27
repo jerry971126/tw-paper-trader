@@ -1,7 +1,7 @@
 {
  "meta": {
   "start_date": "2026-10-22",
-  "last_processed": "2026-11-26",
+  "last_processed": "2026-11-27",
   "initial_cash": 100000,
   "created_utc": "2026-10-22T18:15:33+00:00",
   "params": {
@@ -88,9 +88,9 @@
      "entry_price": 159.5,
      "entry_date": "2026-10-27",
      "cost_basis": 18996.5,
-     "days_held": 23,
+     "days_held": 24,
      "entry_reason": "20日漲幅 9.3%，站上60日均線",
-     "last_price": 166.5
+     "last_price": 165.5
     }
    },
    "pending": [],
@@ -749,6 +749,12 @@
      "equity": 87044.95,
      "cash": 67231.45,
      "n_pos": 1
+    },
+    {
+     "date": "2026-11-27",
+     "equity": 86925.95,
+     "cash": 67231.45,
+     "n_pos": 1
     }
    ],
    "skipped": [],
@@ -767,18 +773,18 @@
      "entry_price": 41.4,
      "entry_date": "2026-11-19",
      "cost_basis": 18106.8,
-     "days_held": 6,
+     "days_held": 7,
      "entry_reason": "RSI 30 超賣，仍在200日均線之上",
-     "last_price": 40.0
+     "last_price": 40.5
     },
     "2890": {
      "shares": 445,
      "entry_price": 38.55,
      "entry_date": "2026-11-20",
      "cost_basis": 17169.75,
-     "days_held": 5,
+     "days_held": 6,
      "entry_reason": "RSI 29 超賣，仍在200日均線之上",
-     "last_price": 35.55
+     "last_price": 35.05
     }
    },
    "pending": [],
@@ -1131,6 +1137,12 @@
     {
      "date": "2026-11-26",
      "equity": 86548.4,
+     "cash": 53248.65,
+     "n_pos": 2
+    },
+    {
+     "date": "2026-11-27",
+     "equity": 86544.4,
      "cash": 53248.65,
      "n_pos": 2
     }
@@ -1861,6 +1873,12 @@
      "equity": 95026.0,
      "cash": 95026.0,
      "n_pos": 0
+    },
+    {
+     "date": "2026-11-27",
+     "equity": 95026.0,
+     "cash": 95026.0,
+     "n_pos": 0
     }
    ],
    "skipped": [],
@@ -1879,9 +1897,9 @@
      "entry_price": 108.95,
      "entry_date": "2026-10-22",
      "cost_basis": 99992.15,
-     "days_held": 24,
+     "days_held": 25,
      "entry_reason": "基準：全額買進並持有",
-     "last_price": 92.85
+     "last_price": 92.4
     }
    },
    "pending": [],
@@ -2047,6 +2065,12 @@
     {
      "date": "2026-11-26",
      "equity": 85151.3,
+     "cash": 7.85,
+     "n_pos": 1
+    },
+    {
+     "date": "2026-11-27",
+     "equity": 84738.65,
      "cash": 7.85,
      "n_pos": 1
     }
@@ -2234,6 +2258,13 @@
    "at_utc": "2026-11-26T22:47:17+00:00",
    "processed": [
     "2026-11-26"
+   ],
+   "missing_prices": []
+  },
+  {
+   "at_utc": "2026-11-27T22:29:15+00:00",
+   "processed": [
+    "2026-11-27"
    ],
    "missing_prices": []
   }
